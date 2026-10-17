@@ -1,0 +1,118 @@
+{
+  "nodes": [
+    {
+      "name": "Main Router",
+      "type": "QuantumRouter",
+      "seed": 0,
+      "memo_size": 50
+    },
+    {
+      "name": "Top Router",
+      "type": "QuantumRouter",
+      "seed": 1,
+      "memo_size": 50
+    },
+    {
+      "name": "Right Router",
+      "type": "QuantumRouter",
+      "seed": 2,
+      "memo_size": 50
+    },
+    {
+      "name": "Bottom Router",
+      "type": "QuantumRouter",
+      "seed": 3,
+      "memo_size": 50
+    },
+    {
+      "name": "Left Router",
+      "type": "QuantumRouter",
+      "seed": 4,
+      "memo_size": 50
+    }
+  ],
+  "qconnections": [
+    {
+      "node1": "Main Router",
+      "node2": "Top Router",
+      "attenuation": 0.0002,
+      "distance": 2900,
+      "type": "meet_in_the_middle"
+    },
+    {
+      "node1": "Main Router",
+      "node2": "Right Router",
+      "attenuation": 0.0002,
+      "distance": 2900,
+      "type": "meet_in_the_middle"
+    },
+    {
+      "node1": "Main Router",
+      "node2": "Bottom Router",
+      "attenuation": 0.0002,
+      "distance": 2900,
+      "type": "meet_in_the_middle"
+    },
+    {
+      "node1": "Main Router",
+      "node2": "Left Router",
+      "attenuation": 0.0002,
+      "distance": 2900,
+      "type": "meet_in_the_middle"
+    }
+  ],
+  "is_parallel": false,
+  "stop_time": 2000000000000,
+  "cconnections": [
+    {
+      "node1": "Main Router",
+      "node2": "Top Router",
+      "delay": 500000000
+    },
+    {
+      "node1": "Main Router",
+      "node2": "Right Router",
+      "delay": 500000000
+    },
+    {
+      "node1": "Main Router",
+      "node2": "Bottom Router",
+      "delay": 500000000
+    },
+    {
+      "node1": "Main Router",
+      "node2": "Left Router",
+      "delay": 500000000
+    },
+    {
+      "node1": "Top Router",
+      "node2": "Right Router",
+      "delay": 1000000000
+    },
+    {
+      "node1": "Top Router",
+      "node2": "Bottom Router",
+      "delay": 1000000000
+    },
+    {
+      "node1": "Top Router",
+      "node2": "Left Router",
+      "delay": 1000000000
+    },
+    {
+      "node1": "Right Router",
+      "node2": "Bottom Router",
+      "delay": 1000000000
+    },
+    {
+      "node1": "Right Router",
+      "node2": "Left Router",
+      "delay": 1000000000
+    },
+    {
+      "node1": "Bottom Router",
+      "node2": "Left Router",
+      "delay": 1000000000
+    }
+  ]
+}

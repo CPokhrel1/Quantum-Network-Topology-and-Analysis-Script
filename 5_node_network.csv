@@ -1,0 +1,6 @@
+,Initiator,Responder,Start_time,End_time,Memory_size,Fidelity,Wait_time,Throughput,Latency
+0,Main Router,Left Router,1.6E+12,1.42979E+13,14,0.803305527,1.6E+12,1682.723545,12.69786714
+1,Main Router,Top Router,2.10979E+13,3.97297E+13,12,0.921327155,6.8E+12,1715.186857,18.63178922
+2,Top Router,Right Router,1.5E+12,2.10046E+13,10,0.989729889,1.5E+12,14.45810043,19.50463696
+3,Bottom Router,Left Router,1.4713E+13,2.50165E+13,13,0.916432407,1.4713E+13,1047.803351,10.30346008
+,,,,,,,,,

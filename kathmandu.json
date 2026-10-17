@@ -1,0 +1,117 @@
+{
+  "nodes": [
+    { "name": "Router 1", "type": "QuantumRouter", "seed": 0, "memo_size": 50 },
+    { "name": "Router 2", "type": "QuantumRouter", "seed": 1, "memo_size": 50 },
+    { "name": "Router 3", "type": "QuantumRouter", "seed": 2, "memo_size": 50 },
+    { "name": "Router 4", "type": "QuantumRouter", "seed": 3, "memo_size": 50 },
+    { "name": "Router 5", "type": "QuantumRouter", "seed": 4, "memo_size": 50 },
+    { "name": "Router 6", "type": "QuantumRouter", "seed": 5, "memo_size": 50 },
+    { "name": "Router 7", "type": "QuantumRouter", "seed": 6, "memo_size": 50 },
+    { "name": "Router 8", "type": "QuantumRouter", "seed": 7, "memo_size": 50 },
+    { "name": "Router 9", "type": "QuantumRouter", "seed": 8, "memo_size": 50 },
+    { "name": "Router 10", "type": "QuantumRouter", "seed": 9, "memo_size": 50 },
+    { "name": "Router 11", "type": "QuantumRouter", "seed": 10, "memo_size": 50 },
+    { "name": "Router 12", "type": "QuantumRouter", "seed": 11, "memo_size": 50 }
+  ],
+
+  "qconnections": [
+    { "node1": "Router 1", "node2": "Router 5", "attenuation": 0.000002, "distance": 720, "type": "meet_in_the_middle" },
+    { "node1": "Router 1", "node2": "Router 10", "attenuation": 0.000002, "distance": 1010, "type": "meet_in_the_middle" },
+    { "node1": "Router 10", "node2": "Router 11", "attenuation": 0.000002, "distance": 1040, "type": "meet_in_the_middle" },
+    { "node1": "Router 2", "node2": "Router 11", "attenuation": 0.000002, "distance": 510, "type": "meet_in_the_middle" },
+    { "node1": "Router 2", "node2": "Router 3", "attenuation": 0.000002, "distance": 1280, "type": "meet_in_the_middle" },
+    { "node1": "Router 2", "node2": "Router 6", "attenuation": 0.000002, "distance": 2740, "type": "meet_in_the_middle" },
+    { "node1": "Router 3", "node2": "Router 12", "attenuation": 0.000002, "distance": 790, "type": "meet_in_the_middle" },
+    { "node1": "Router 3", "node2": "Router 9", "attenuation": 0.000002, "distance": 2250, "type": "meet_in_the_middle" },
+    { "node1": "Router 3", "node2": "Router 8", "attenuation": 0.000002, "distance": 1490, "type": "meet_in_the_middle" },
+    { "node1": "Router 12", "node2": "Router 8", "attenuation": 0.000002, "distance": 1030, "type": "meet_in_the_middle" },
+    { "node1": "Router 12", "node2": "Router 7", "attenuation": 0.000002, "distance": 4680, "type": "meet_in_the_middle" },
+    { "node1": "Router 4", "node2": "Router 6", "attenuation": 0.000002, "distance": 1200, "type": "meet_in_the_middle" },
+    { "node1": "Router 4", "node2": "Router 8", "attenuation": 0.000002, "distance": 1310, "type": "meet_in_the_middle" },
+    { "node1": "Router 4", "node2": "Router 7", "attenuation": 0.000002, "distance": 3520, "type": "meet_in_the_middle" }
+  ],
+
+  "is_parallel": false,
+  "stop_time": 2000000000000,
+
+  "cconnections": [
+    { "node1": "Router 1", "node2": "Router 2", "delay": 1000000000 },
+    { "node1": "Router 1", "node2": "Router 3", "delay": 1000000000 },
+    { "node1": "Router 1", "node2": "Router 4", "delay": 1000000000 },
+    { "node1": "Router 1", "node2": "Router 5", "delay": 1000000000 },
+    { "node1": "Router 1", "node2": "Router 6", "delay": 1000000000 },
+    { "node1": "Router 1", "node2": "Router 7", "delay": 1000000000 },
+    { "node1": "Router 1", "node2": "Router 8", "delay": 1000000000 },
+    { "node1": "Router 1", "node2": "Router 9", "delay": 1000000000 },
+    { "node1": "Router 1", "node2": "Router 10", "delay": 1000000000 },
+    { "node1": "Router 1", "node2": "Router 11", "delay": 1000000000 },
+    { "node1": "Router 1", "node2": "Router 12", "delay": 1000000000 },
+
+    { "node1": "Router 2", "node2": "Router 3", "delay": 1000000000 },
+    { "node1": "Router 2", "node2": "Router 4", "delay": 1000000000 },
+    { "node1": "Router 2", "node2": "Router 5", "delay": 1000000000 },
+    { "node1": "Router 2", "node2": "Router 6", "delay": 1000000000 },
+    { "node1": "Router 2", "node2": "Router 7", "delay": 1000000000 },
+    { "node1": "Router 2", "node2": "Router 8", "delay": 1000000000 },
+    { "node1": "Router 2", "node2": "Router 9", "delay": 1000000000 },
+    { "node1": "Router 2", "node2": "Router 10", "delay": 1000000000 },
+    { "node1": "Router 2", "node2": "Router 11", "delay": 1000000000 },
+    { "node1": "Router 2", "node2": "Router 12", "delay": 1000000000 },
+
+    { "node1": "Router 3", "node2": "Router 4", "delay": 1000000000 },
+    { "node1": "Router 3", "node2": "Router 5", "delay": 1000000000 },
+    { "node1": "Router 3", "node2": "Router 6", "delay": 1000000000 },
+    { "node1": "Router 3", "node2": "Router 7", "delay": 1000000000 },
+    { "node1": "Router 3", "node2": "Router 8", "delay": 1000000000 },
+    { "node1": "Router 3", "node2": "Router 9", "delay": 1000000000 },
+    { "node1": "Router 3", "node2": "Router 10", "delay": 1000000000 },
+    { "node1": "Router 3", "node2": "Router 11", "delay": 1000000000 },
+    { "node1": "Router 3", "node2": "Router 12", "delay": 1000000000 },
+
+    { "node1": "Router 4", "node2": "Router 5", "delay": 1000000000 },
+    { "node1": "Router 4", "node2": "Router 6", "delay": 1000000000 },
+    { "node1": "Router 4", "node2": "Router 7", "delay": 1000000000 },
+    { "node1": "Router 4", "node2": "Router 8", "delay": 1000000000 },
+    { "node1": "Router 4", "node2": "Router 9", "delay": 1000000000 },
+    { "node1": "Router 4", "node2": "Router 10", "delay": 1000000000 },
+    { "node1": "Router 4", "node2": "Router 11", "delay": 1000000000 },
+    { "node1": "Router 4", "node2": "Router 12", "delay": 1000000000 },
+    
+    { "node1": "Router 5", "node2": "Router 6", "delay": 1000000000 },
+    { "node1": "Router 5", "node2": "Router 7", "delay": 1000000000 },
+    { "node1": "Router 5", "node2": "Router 8", "delay": 1000000000 },
+    { "node1": "Router 5", "node2": "Router 9", "delay": 1000000000 },
+    { "node1": "Router 5", "node2": "Router 10", "delay": 1000000000 },
+    { "node1": "Router 5", "node2": "Router 11", "delay": 1000000000 },
+    { "node1": "Router 5", "node2": "Router 12", "delay": 1000000000 },
+    
+    { "node1": "Router 6", "node2": "Router 7", "delay": 1000000000 },
+    { "node1": "Router 6", "node2": "Router 8", "delay": 1000000000 },
+    { "node1": "Router 6", "node2": "Router 9", "delay": 1000000000 },
+    { "node1": "Router 6", "node2": "Router 10", "delay": 1000000000 },
+    { "node1": "Router 6", "node2": "Router 11", "delay": 1000000000 },
+    { "node1": "Router 6", "node2": "Router 12", "delay": 1000000000 },
+    
+    { "node1": "Router 7", "node2": "Router 8", "delay": 1000000000 },
+    { "node1": "Router 7", "node2": "Router 9", "delay": 1000000000 },
+    { "node1": "Router 7", "node2": "Router 10", "delay": 1000000000 },
+    { "node1": "Router 7", "node2": "Router 11", "delay": 1000000000 },
+    { "node1": "Router 7", "node2": "Router 12", "delay": 1000000000 },
+    
+    { "node1": "Router 8", "node2": "Router 9", "delay": 1000000000 },
+    { "node1": "Router 8", "node2": "Router 10", "delay": 1000000000 },
+    { "node1": "Router 8", "node2": "Router 11", "delay": 1000000000 },
+    { "node1": "Router 8", "node2": "Router 12", "delay": 1000000000 },
+    
+    { "node1": "Router 9", "node2": "Router 10", "delay": 1000000000 },
+    { "node1": "Router 9", "node2": "Router 11", "delay": 1000000000 },
+    { "node1": "Router 9", "node2": "Router 12", "delay": 1000000000 },
+    
+    { "node1": "Router 10", "node2": "Router 11", "delay": 1000000000 },
+    { "node1": "Router 10", "node2": "Router 12", "delay": 1000000000 },
+    
+    { "node1": "Router 11", "node2": "Router 12", "delay": 1000000000 }
+    
+  ]
+}
+
